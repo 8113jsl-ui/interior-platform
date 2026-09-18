@@ -47,3 +47,17 @@
 - 운영 설정에서는 개발 표시 옵션이 true여도 서버가 false를 반환함. 테스트 포함 총 62개 통과.
 
 표시량이 많은 페이지에서는 가독성을 위해 기본 네임택을 최대 35개까지 간격을 두고 표시합니다. 컨테이너·밀집 요소도 data ID는 모두 보유하고 있으며 hover 하단 상태 표시와 `UIIds.inspect()`에서 확인할 수 있습니다.
+
+## 개발자 모드 HTML 및 첨부 화면
+
+- 실행 안내 HTML: [developer-mode.html](developer-mode.html)
+- 사용자 첨부 원본 이미지: [네임태그 화면](screenshots/element-ids-korean-numeric.png)
+- 실제 메인 HTML: [public/index.html](../public/index.html)
+- 개발 환경 실행 후 http://127.0.0.1:8766/?elementIds=1 에서 확인합니다. GitHub 파일 화면은 소스 보기이며 실행 화면이 아닙니다.
+
+대상 페이지: 개발자 모드 실행 안내 문서
+대상 영역: 안내 및 화면 예시
+대상 요소: 실행 링크, 첨부 이미지
+변경 내용: 안내 HTML과 사용자 첨부 PNG 원본 보관
+동작: 로컬 개발 서버의 네임태그 모드로 이동
+수정하지 않을 범위: 실제 사이트 디자인·기능·기존 고유 ID
