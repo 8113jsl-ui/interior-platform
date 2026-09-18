@@ -8,7 +8,10 @@
  let currentPage,observer,scheduled=false,host,shadow,hovered=null,enabled=false,lastPaint=0,raf=0;
  const koreanTypes={BUTTON:'버튼',CARD:'카드',IMAGE:'이미지',TEXT:'텍스트',INPUT:'입력창',HEADER:'헤더',NAV:'내비게이션',HERO:'메인 배너',CONTENT:'본문',FOOTER:'푸터',FORM:'입력 폼',TABLE:'표',DIALOG:'대화상자',SECTION:'영역',GROUP:'컨테이너',ASIDE:'보조 영역'};
  const koreanPages={'/':'메인','/resources':'자료실 목록','/about-us':'회사 소개','/pricing':'요금 안내','/contact-us':'문의','/heron-chat-widget':'채팅 위젯','/heron-dashboard':'대시보드','/privacy-policy':'개인정보 처리방침','/terms-and-conditions':'이용 약관','/cookie-policy':'쿠키 정책','/login':'로그인'};
- const labelText=id=>{const [page,kind,...key]=id.split('_');return page+' · '+(koreanTypes[kind]||kind)+' · '+key.join('_');};
+ const displayKeys=new Map(),displayCounters=new Map();
+ try{const saved=JSON.parse(sessionStorage.getItem('ui-display-keys')||'[]');for(const [id,key] of saved){if(!/^P\d+_[A-Z]+_[A-Z0-9]+$/.test(id)||!Number.isSafeInteger(key)||key<1)continue;displayKeys.set(id,key);const scope=id.split('_').slice(0,2).join('_');displayCounters.set(scope,Math.max(displayCounters.get(scope)||0,key));}}catch{}
+ function displayKey(id){if(!displayKeys.has(id)){const scope=id.split('_').slice(0,2).join('_'),next=(displayCounters.get(scope)||0)+1;displayCounters.set(scope,next);displayKeys.set(id,next);}return String(displayKeys.get(id)).padStart(2,'0');}
+ const labelText=id=>{const kind=id.split('_')[1];return (koreanTypes[kind]||kind)+' '+displayKey(id);};
  const pageText=page=>koreanPages[page.path]||(page.id==='P05_MYPAGE'?'마이페이지':page.id.endsWith('_DETAIL')?'자료실 상세':page.id.endsWith('_INVITE')?'초대':page.id.endsWith('_RESET')?'비밀번호 재설정':page.name+' 화면');
  const measure=document.createElement('canvas').getContext('2d');
  measure.font='600 16px "Malgun Gothic", sans-serif';
@@ -33,7 +36,7 @@
    let id=el.dataset.elementId;
    if(!id||!id.startsWith(page.split('_')[0]+'_')||used.has(id))id=core.elementId(page,kind,a['data-ui-key']?page+'/key/'+a['data-ui-key']:key);
    if(used.has(id))throw Error('Duplicate UI identity: '+id);
-   used.add(id);el.dataset.pageId=page;el.dataset.elementId=id;
+   used.add(id);el.dataset.pageId=page;el.dataset.elementId=id;el.dataset.elementKey=displayKey(id);
    if(el.matches('a[href]')){
     const u=new URL(el.getAttribute('href'),location.href);
     const hashNavigation=u.hash&&u.hash.startsWith('#/');
@@ -42,6 +45,7 @@
     else{delete el.dataset.targetPage;if(el.dataset.uiGeneratedAction){delete el.dataset.action;delete el.dataset.uiGeneratedAction;}}
    }
   }
+  try{sessionStorage.setItem('ui-display-keys',JSON.stringify([...displayKeys]));}catch{}
   observer?.observe(document.body,{childList:true,subtree:true,attributes:true,attributeFilter:['href','data-screen-id']});
  }
  function queue(){if(!scheduled){scheduled=true;setTimeout(scan,50);}}
@@ -64,7 +68,7 @@
   for(const el of elements){if(/_GROUP_/.test(el.dataset.elementId)||!visible(el))continue;const rect=el.getBoundingClientRect();if(rect.width<3||rect.height<3||rect.bottom<0||rect.top>innerHeight||rect.right<0||rect.left>innerWidth||el.closest('[hidden],[aria-hidden="true"]'))continue;add(el.dataset.elementId,rect.left,rect.top-29);}
   const outline=shadow.querySelector('.outline');outline.hidden=true;
   if(hovered?.isConnected){const r=hovered.getBoundingClientRect();outline.hidden=false;outline.style.cssText=`left:${r.left}px;top:${r.top}px;width:${r.width}px;height:${r.height}px`;add(hovered.dataset.elementId,r.left,r.top-29,true);}
-  shadow.querySelector('.status').textContent=`${pageText(currentPage)} [${currentPage.id}] · ${hovered?.dataset.elementId?labelText(hovered.dataset.elementId):'요소 '+elements.length+'개'} · 숨기기 Alt+Shift+I`;
+  shadow.querySelector('.status').textContent=`${pageText(currentPage)} ${currentPage.id.match(/^P(\d+)/)[1]} · ${hovered?.dataset.elementId?labelText(hovered.dataset.elementId):'요소 '+elements.length+'개'} · 숨기기 Alt+Shift+I`;
  }
  function setEnabled(value){
   enabled=config.allowElementIds===true&&Boolean(value);
