@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="도안부터 현장 기록까지, 프로젝트 안에서 이어지는 인테리어 워크스페이스.">
+  <title>인테리어 플랫폼</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23282828'/%3E%3Cpath d='M8 24V8h16v16M8 16h16M16 8v16' fill='none' stroke='%23faf9f5' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="reference-ui.css">
+  <script src="core.js" defer></script>
+  <script src="screen-registry.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="server.js" defer></script>
+  <script src="workspace-ui.js" defer></script>
+  <script src="operations.js" defer></script>
+  <script src="pdf-preview.js" defer></script>
+  <script src="motion.js" defer></script>
+</head>
+<body>
+  <!-- Keyboard entry and persistent shell -->
+  <a class="skip-link" href="#main" id="skip">본문으로 이동</a>
+  <div id="app"></div>
+  <!-- Dialog handles registration/editing as screen state, not another depth -->
+  <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+  <div id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <noscript>워크스페이스를 사용하려면 JavaScript를 활성화해 주세요. / JavaScript is required.</noscript>
+</body>
+</html>

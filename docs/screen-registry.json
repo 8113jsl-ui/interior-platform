@@ -1,0 +1,452 @@
+[
+  {
+    "SCREEN_ID": "PM-01",
+    "parent_screen_id": null,
+    "depth": 1,
+    "role": "pm",
+    "route": "#/pm/projects",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-02",
+    "parent_screen_id": "PM-01",
+    "depth": 2,
+    "role": "pm",
+    "route": "#/pm/project/{project}/overview",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-03",
+    "parent_screen_id": "PM-02",
+    "depth": 3,
+    "role": "pm",
+    "route": "#/pm/project/{project}/overview",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-04",
+    "parent_screen_id": "PM-02",
+    "depth": 3,
+    "role": "pm",
+    "route": "#/pm/project/{project}/designs",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-14",
+    "parent_screen_id": "PM-04",
+    "depth": 4,
+    "role": "pm",
+    "route": "#/pm/project/{project}/designs/{item}",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-05",
+    "parent_screen_id": "PM-02",
+    "depth": 3,
+    "role": "pm",
+    "route": "#/pm/project/{project}/materials",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-15",
+    "parent_screen_id": "PM-05",
+    "depth": 4,
+    "role": "pm",
+    "route": "#/pm/project/{project}/materials/{item}",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-06",
+    "parent_screen_id": "PM-02",
+    "depth": 3,
+    "role": "pm",
+    "route": "#/pm/project/{project}/requests",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-16",
+    "parent_screen_id": "PM-06",
+    "depth": 4,
+    "role": "pm",
+    "route": "#/pm/project/{project}/requests/{item}",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-07",
+    "parent_screen_id": "PM-02",
+    "depth": 3,
+    "role": "pm",
+    "route": "#/pm/project/{project}/photos",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-17",
+    "parent_screen_id": "PM-07",
+    "depth": 4,
+    "role": "pm",
+    "route": "#/pm/project/{project}/photos/{item}",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-08",
+    "parent_screen_id": "PM-02",
+    "depth": 3,
+    "role": "pm",
+    "route": "#/pm/project/{project}/schedule",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-18",
+    "parent_screen_id": "PM-08",
+    "depth": 4,
+    "role": "pm",
+    "route": "#/pm/project/{project}/schedule/{item}",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-09",
+    "parent_screen_id": "PM-02",
+    "depth": 3,
+    "role": "pm",
+    "route": "#/pm/project/{project}/estimates",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-19",
+    "parent_screen_id": "PM-09",
+    "depth": 4,
+    "role": "pm",
+    "route": "#/pm/project/{project}/estimates/{item}",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-50",
+    "parent_screen_id": null,
+    "depth": 1,
+    "role": "pm",
+    "route": "#/pm/notifications",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "CL-01",
+    "parent_screen_id": null,
+    "depth": 1,
+    "role": "customer",
+    "route": "#/customer/projects",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "CL-02",
+    "parent_screen_id": "CL-01",
+    "depth": 2,
+    "role": "customer",
+    "route": "#/customer/project/{project}/overview",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "CL-03",
+    "parent_screen_id": "CL-02",
+    "depth": 3,
+    "role": "customer",
+    "route": "#/customer/project/{project}/overview",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "CL-04",
+    "parent_screen_id": "CL-02",
+    "depth": 3,
+    "role": "customer",
+    "route": "#/customer/project/{project}/designs",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "CL-14",
+    "parent_screen_id": "CL-04",
+    "depth": 4,
+    "role": "customer",
+    "route": "#/customer/project/{project}/designs/{item}",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "CL-05",
+    "parent_screen_id": "CL-02",
+    "depth": 3,
+    "role": "customer",
+    "route": "#/customer/project/{project}/materials",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "CL-15",
+    "parent_screen_id": "CL-05",
+    "depth": 4,
+    "role": "customer",
+    "route": "#/customer/project/{project}/materials/{item}",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "CL-06",
+    "parent_screen_id": "CL-02",
+    "depth": 3,
+    "role": "customer",
+    "route": "#/customer/project/{project}/requests",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "CL-16",
+    "parent_screen_id": "CL-06",
+    "depth": 4,
+    "role": "customer",
+    "route": "#/customer/project/{project}/requests/{item}",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "CL-07",
+    "parent_screen_id": "CL-02",
+    "depth": 3,
+    "role": "customer",
+    "route": "#/customer/project/{project}/photos",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "CL-17",
+    "parent_screen_id": "CL-07",
+    "depth": 4,
+    "role": "customer",
+    "route": "#/customer/project/{project}/photos/{item}",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "CL-08",
+    "parent_screen_id": "CL-02",
+    "depth": 3,
+    "role": "customer",
+    "route": "#/customer/project/{project}/schedule",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "CL-18",
+    "parent_screen_id": "CL-08",
+    "depth": 4,
+    "role": "customer",
+    "route": "#/customer/project/{project}/schedule/{item}",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "CL-09",
+    "parent_screen_id": "CL-02",
+    "depth": 3,
+    "role": "customer",
+    "route": "#/customer/project/{project}/estimates",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "CL-19",
+    "parent_screen_id": "CL-09",
+    "depth": 4,
+    "role": "customer",
+    "route": "#/customer/project/{project}/estimates/{item}",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "CL-50",
+    "parent_screen_id": null,
+    "depth": 1,
+    "role": "customer",
+    "route": "#/customer/notifications",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-10",
+    "parent_screen_id": "PM-02",
+    "depth": 3,
+    "role": "pm",
+    "route": "#/pm/project/{project}/settings",
+    "REQ_ID": null,
+    "status": "connected-policy-gated"
+  },
+  {
+    "SCREEN_ID": "PM-20",
+    "parent_screen_id": null,
+    "depth": 1,
+    "role": "pm",
+    "route": "#/pm/customers",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-30",
+    "parent_screen_id": null,
+    "depth": 1,
+    "role": "pm",
+    "route": "#/pm/calendar",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-40",
+    "parent_screen_id": null,
+    "depth": 1,
+    "role": "pm",
+    "route": "#/pm/history",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-21",
+    "parent_screen_id": "PM-20",
+    "depth": 2,
+    "role": "pm",
+    "route": "#/pm/customers/{client}",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-41",
+    "parent_screen_id": "PM-40",
+    "depth": 2,
+    "role": "pm",
+    "route": "#/pm/history/{record}",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-60",
+    "parent_screen_id": null,
+    "depth": 1,
+    "role": "pm",
+    "route": "#/pm/settings",
+    "REQ_ID": null,
+    "status": "connected-policy-gated"
+  },
+  {
+    "SCREEN_ID": "PM-61",
+    "parent_screen_id": "PM-60",
+    "depth": 2,
+    "role": "pm",
+    "route": null,
+    "REQ_ID": null,
+    "status": "connected-policy-gated"
+  },
+  {
+    "SCREEN_ID": "PM-62",
+    "parent_screen_id": "PM-60",
+    "depth": 2,
+    "role": "pm",
+    "route": null,
+    "REQ_ID": null,
+    "status": "connected-policy-gated"
+  },
+  {
+    "SCREEN_ID": "PM-63",
+    "parent_screen_id": "PM-60",
+    "depth": 2,
+    "role": "pm",
+    "route": null,
+    "REQ_ID": null,
+    "status": "connected-policy-gated"
+  },
+  {
+    "SCREEN_ID": "PM-64",
+    "parent_screen_id": "PM-60",
+    "depth": 2,
+    "role": "pm",
+    "route": null,
+    "REQ_ID": null,
+    "status": "connected-policy-gated"
+  },
+  {
+    "SCREEN_ID": "FW-01",
+    "parent_screen_id": null,
+    "depth": 1,
+    "role": "field",
+    "route": "#/field/photos",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "FW-02",
+    "parent_screen_id": "FW-01",
+    "depth": 2,
+    "role": "field",
+    "route": "#/field/photos/{photo}",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "FW-03",
+    "parent_screen_id": "FW-01",
+    "depth": 1,
+    "role": "field",
+    "route": null,
+    "REQ_ID": null,
+    "status": "form-state"
+  },
+  {
+    "SCREEN_ID": "FW-50",
+    "parent_screen_id": null,
+    "depth": 1,
+    "role": "field",
+    "route": "#/field/notifications",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "PM-PREF",
+    "parent_screen_id": null,
+    "depth": 1,
+    "role": "pm",
+    "route": "#/pm/preferences",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "CL-PREF",
+    "parent_screen_id": null,
+    "depth": 1,
+    "role": "customer",
+    "route": "#/customer/preferences",
+    "REQ_ID": null,
+    "status": "connected"
+  },
+  {
+    "SCREEN_ID": "FW-PREF",
+    "parent_screen_id": null,
+    "depth": 1,
+    "role": "field",
+    "route": "#/field/preferences",
+    "REQ_ID": null,
+    "status": "connected"
+  }
+]

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" fill="none">
+ <defs>
+  <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(28)"><path d="M0 0V6" stroke="#282828" stroke-opacity=".13"/></pattern>
+  <pattern id="floor" width="75" height="30" patternUnits="userSpaceOnUse"><path d="M0 30H75M0 0V30M38 0V15" stroke="#282828" stroke-opacity=".14" stroke-width=".65"/></pattern>
+  <pattern id="fabric" width="4" height="4" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".5" fill="#282828" fill-opacity=".27"/></pattern>
+ </defs>
+ <!-- Original vector drawing: decorative interior, not project data. -->
+ <g stroke="#282828" stroke-width="1.2" stroke-linejoin="round">
+  <path d="M160 420 540 575 1070 352 690 197Z" fill="#e7e6df"/>
+  <path d="M160 420 540 575 1070 352 690 197Z" fill="url(#floor)"/>
+  <path d="M160 420V175L690 35V197Z" fill="#ecebe3"/>
+  <path d="M160 420V175L690 35V197Z" fill="url(#hatch)"/>
+  <path d="M690 35 1070 136V352L690 197Z" fill="#f4f3ec"/>
+  <path d="M160 175 168 171 698 30 1078 130 1070 136 690 35Z" fill="#c5c5bd"/>
+  <path d="M1070 136 1078 130V348L1070 352Z" fill="#b8b8af"/>
+  <path d="M199 197 362 154V321L199 374Z" fill="#dadbd2"/>
+  <path d="M207 202 354 163V315L207 362Z" fill="#f2f2e9"/>
+  <path d="M199 197 207 202V362L199 374M275 177V349M283 176V345M207 280 354 237M207 284 354 241"/>
+  <path d="M390 147 644 80V239L390 319Z" fill="#ced0c5"/>
+  <path d="M400 153 634 91V231L400 305Z" fill="#eeeee4"/>
+  <path d="M470 134V283M477 132V281M550 113V258M558 111V255M400 229 634 161M400 235 634 167"/>
+  <path d="M181 417 543 564 1053 350M543 564V575M160 420V426L540 584 1070 360V352M540 575V584"/>
+  <!-- Glazed corner and elevation joints. -->
+  <path d="M720 59V185L852 237V95Z" fill="#dfdfd6"/>
+  <path d="M729 72V180L843 224V103Z" fill="#efeee7"/>
+  <path d="M785 88V201M791 89V204M729 126 843 166M729 131 843 171"/>
+  <path d="M871 100 1029 144V281L871 223Z" fill="#dddcd4"/>
+  <path d="M881 113 1019 151V266L881 215Z" fill="#f0efe8"/>
+  <path d="M946 131V239M951 133V241"/>
+  <path d="M690 35V197M688 48V197M168 186V415M695 197 1061 347"/>
+  <!-- Kitchen joinery. -->
+  <path d="M388 325 643 244 759 289 506 376Z" fill="#e0dfd7"/>
+  <path d="M388 325V376L506 426V376Z" fill="#c6c6bb"/>
+  <path d="M506 376V426L759 331V289Z" fill="#deded4"/>
+  <path d="M388 331 506 382 759 295M572 354V402M635 332V379M698 310V356"/>
+  <path d="M530 286 571 273 616 291 575 305Z M540 288 572 278 605 291 574 301Z"/>
+  <path d="M579 283V266Q578 259 569 262L565 264V271" stroke-width="2"/>
+  <path d="M427 324 472 309 514 326 469 342Z"/>
+  <ellipse cx="460" cy="323" rx="10" ry="4"/><ellipse cx="482" cy="331" rx="9" ry="4"/>
+  <!-- Sofa and cushions. -->
+  <path d="M232 382 274 364 442 431 400 452Z" fill="#dfdfd4"/>
+  <path d="M232 382V426L400 495V452Z" fill="#cdcec1"/>
+  <path d="M400 452 442 431V475L400 495Z" fill="#b9bdb0"/>
+  <path d="M250 389 277 378 423 436 396 451Z" fill="url(#fabric)"/>
+  <path d="M263 409 280 402 406 451 389 458Z" fill="#edede3"/>
+  <path d="M263 409V433L389 484V458M306 418V450M348 435V467"/>
+  <path d="M233 389 246 394V438L233 433Z M389 451 401 456V495L389 490Z" fill="#aeafa3"/>
+  <path d="M251 440V450M391 496V507M435 479V489" stroke-width="3"/>
+  <!-- Low table / rug. -->
+  <path d="M465 456 626 388 768 444 604 517Z" fill="url(#hatch)" stroke-opacity=".35"/>
+  <ellipse cx="597" cy="445" rx="88" ry="31" fill="#b3b5aa"/>
+  <ellipse cx="597" cy="437" rx="88" ry="31" fill="#e8e7dd"/>
+  <path d="M527 457V476M665 457V476M595 468V493" stroke-width="2"/>
+  <path d="M568 428 588 420 621 432 601 441Z" fill="#f5f3ea"/>
+  <ellipse cx="625" cy="438" rx="7" ry="3" fill="#888e7d"/>
+  <!-- Dining area. -->
+  <path d="M817 268 919 307 811 352 711 311Z" fill="#b8bbaf"/>
+  <path d="M817 262 922 302 811 348 708 307Z" fill="#e6e6dc"/>
+  <path d="M716 313V350M810 349V388M912 310V344M817 270V302" stroke-width="2"/>
+  <path d="M767 354 786 361V383L767 376ZM824 377 846 368V388L824 399Z" fill="#d3d5c9"/>
+  <path d="M854 253 873 260V280L854 273ZM737 281 755 274V295L737 302Z" fill="#d3d5c9"/>
+  <!-- Pendant. -->
+  <path d="M812 72V163"/><path d="M778 183Q810 144 844 183Z" fill="#ced0c4"/>
+  <ellipse cx="811" cy="183" rx="33" ry="9" fill="#f3f2e9"/>
+  <!-- Tall plant. -->
+  <path d="M981 305 1016 294 1012 324 986 333Z" fill="#c1c5b8"/>
+  <path d="M996 307V240M996 272Q965 261 967 238Q992 240 996 272M996 287Q1020 274 1025 252Q1001 258 996 287M996 253Q1015 236 1012 219Q996 229 996 253M996 294Q974 288 977 270Q993 276 996 294" fill="#e3e6da"/>
+ </g>
+ <g stroke="#777b70" stroke-width=".6" opacity=".6">
+  <path d="M126 436 536 604 1104 365M126 425V447M536 593V615M1104 354V376M133 156 684 10M133 146V167M684 0V22M1135 132V357M1125 132H1145M1125 357H1145"/>
+ </g>
+ <g fill="#73776e" font-family="monospace" font-size="9">
+  <text x="290" y="525" transform="rotate(22 290 525)">LIVING / 01</text><text x="849" y="488" transform="rotate(-23 849 488)">SPACE / 02</text><text x="426" y="67" transform="rotate(-15 426 67)">INTERIOR STUDY</text>
+ </g>
+ <g stroke="#fa3600" stroke-width="1.6"><path d="M349 129V112H366M837 234H854V217M569 510V527H586M111 358V375H128"/></g>
+</svg>
