@@ -1,0 +1,392 @@
+[
+  {
+    "id": "P01_HOME",
+    "path": "/",
+    "name": "메인"
+  },
+  {
+    "id": "P02_LIST",
+    "path": "/resources",
+    "name": "자료실 목록"
+  },
+  {
+    "id": "P03_DETAIL",
+    "path": "/insights/the-difference-between-a-tool-and-a-teammate",
+    "name": "자료실 상세"
+  },
+  {
+    "id": "P04_LOGIN",
+    "path": "/login",
+    "name": "로그인"
+  },
+  {
+    "id": "P05_MYPAGE",
+    "pattern": "^#/(pm|customer|field)/preferences$",
+    "name": "마이페이지"
+  },
+  {
+    "id": "P06_ABOUT_US",
+    "path": "/about-us",
+    "name": "/about-us"
+  },
+  {
+    "id": "P07_HERON_CHAT_WIDGET",
+    "path": "/heron-chat-widget",
+    "name": "/heron-chat-widget"
+  },
+  {
+    "id": "P08_HERON_DASHBOARD",
+    "path": "/heron-dashboard",
+    "name": "/heron-dashboard"
+  },
+  {
+    "id": "P09_PRICING",
+    "path": "/pricing",
+    "name": "/pricing"
+  },
+  {
+    "id": "P10_CONTACT_US",
+    "path": "/contact-us",
+    "name": "/contact-us"
+  },
+  {
+    "id": "P11_PRIVACY_POLICY",
+    "path": "/privacy-policy",
+    "name": "/privacy-policy"
+  },
+  {
+    "id": "P12_TERMS_AND_CONDITIONS",
+    "path": "/terms-and-conditions",
+    "name": "/terms-and-conditions"
+  },
+  {
+    "id": "P13_COOKIE_POLICY",
+    "path": "/cookie-policy",
+    "name": "/cookie-policy"
+  },
+  {
+    "id": "P14_DETAIL",
+    "path": "/insights/why-the-best-ai-feels-invisible",
+    "name": "/insights/why-the-best-ai-feels-invisible"
+  },
+  {
+    "id": "P15_DETAIL",
+    "path": "/insights/the-hidden-cost-of-repetitive-modelling",
+    "name": "/insights/the-hidden-cost-of-repetitive-modelling"
+  },
+  {
+    "id": "P16_DETAIL",
+    "path": "/insights/ai-doesnt-replace-architects-it-removes-busywork",
+    "name": "/insights/ai-doesnt-replace-architects-it-removes-busywork"
+  },
+  {
+    "id": "P17_DETAIL",
+    "path": "/insights/the-future-of-ai-in-architectural-practice",
+    "name": "/insights/the-future-of-ai-in-architectural-practice"
+  },
+  {
+    "id": "P18_DETAIL",
+    "path": "/insights/why-design-software-should-work-with-you",
+    "name": "/insights/why-design-software-should-work-with-you"
+  },
+  {
+    "id": "P19_DETAIL",
+    "path": "/ai-practices/why-small-automations-beat-big-overhauls",
+    "name": "/ai-practices/why-small-automations-beat-big-overhauls"
+  },
+  {
+    "id": "P20_DETAIL",
+    "path": "/ai-practices/automation-without-losing-control",
+    "name": "/ai-practices/automation-without-losing-control"
+  },
+  {
+    "id": "P21_DETAIL",
+    "path": "/ai-practices/what-should-ai-automate",
+    "name": "/ai-practices/what-should-ai-automate"
+  },
+  {
+    "id": "P22_DETAIL",
+    "path": "/ai-practices/building-trust-in-ai-for-design-teams",
+    "name": "/ai-practices/building-trust-in-ai-for-design-teams"
+  },
+  {
+    "id": "P23_DETAIL",
+    "path": "/ai-practices/human-in-the-loop-ai",
+    "name": "/ai-practices/human-in-the-loop-ai"
+  },
+  {
+    "id": "P24_DETAIL",
+    "path": "/design-workflows/how-to-build-a-family-library-people-actually-use",
+    "name": "/design-workflows/how-to-build-a-family-library-people-actually-use"
+  },
+  {
+    "id": "P25_DETAIL",
+    "path": "/design-workflows/designing-faster-without-sacrificing-quality",
+    "name": "/design-workflows/designing-faster-without-sacrificing-quality"
+  },
+  {
+    "id": "P26_DETAIL",
+    "path": "/design-workflows/keeping-design-standards-consistent",
+    "name": "/design-workflows/keeping-design-standards-consistent"
+  },
+  {
+    "id": "P27_DETAIL",
+    "path": "/design-workflows/better-model-coordination-starts-earlier",
+    "name": "/design-workflows/better-model-coordination-starts-earlier"
+  },
+  {
+    "id": "P28_DETAIL",
+    "path": "/design-workflows/common-bim-modelling-mistakes",
+    "name": "/design-workflows/common-bim-modelling-mistakes"
+  },
+  {
+    "id": "P29_PM_01",
+    "pattern": "^#/pm/projects$",
+    "name": "PM-01",
+    "legacyScreenId": "PM-01"
+  },
+  {
+    "id": "P30_PM_02",
+    "pattern": "^#/pm/project/[^/]+/overview$",
+    "name": "PM-02",
+    "legacyScreenId": "PM-02"
+  },
+  {
+    "id": "P31_PM_04",
+    "pattern": "^#/pm/project/[^/]+/designs$",
+    "name": "PM-04",
+    "legacyScreenId": "PM-04"
+  },
+  {
+    "id": "P32_PM_14",
+    "pattern": "^#/pm/project/[^/]+/designs/[^/]+$",
+    "name": "PM-14",
+    "legacyScreenId": "PM-14"
+  },
+  {
+    "id": "P33_PM_05",
+    "pattern": "^#/pm/project/[^/]+/materials$",
+    "name": "PM-05",
+    "legacyScreenId": "PM-05"
+  },
+  {
+    "id": "P34_PM_15",
+    "pattern": "^#/pm/project/[^/]+/materials/[^/]+$",
+    "name": "PM-15",
+    "legacyScreenId": "PM-15"
+  },
+  {
+    "id": "P35_PM_06",
+    "pattern": "^#/pm/project/[^/]+/requests$",
+    "name": "PM-06",
+    "legacyScreenId": "PM-06"
+  },
+  {
+    "id": "P36_PM_16",
+    "pattern": "^#/pm/project/[^/]+/requests/[^/]+$",
+    "name": "PM-16",
+    "legacyScreenId": "PM-16"
+  },
+  {
+    "id": "P37_PM_07",
+    "pattern": "^#/pm/project/[^/]+/photos$",
+    "name": "PM-07",
+    "legacyScreenId": "PM-07"
+  },
+  {
+    "id": "P38_PM_17",
+    "pattern": "^#/pm/project/[^/]+/photos/[^/]+$",
+    "name": "PM-17",
+    "legacyScreenId": "PM-17"
+  },
+  {
+    "id": "P39_PM_08",
+    "pattern": "^#/pm/project/[^/]+/schedule$",
+    "name": "PM-08",
+    "legacyScreenId": "PM-08"
+  },
+  {
+    "id": "P40_PM_18",
+    "pattern": "^#/pm/project/[^/]+/schedule/[^/]+$",
+    "name": "PM-18",
+    "legacyScreenId": "PM-18"
+  },
+  {
+    "id": "P41_PM_09",
+    "pattern": "^#/pm/project/[^/]+/estimates$",
+    "name": "PM-09",
+    "legacyScreenId": "PM-09"
+  },
+  {
+    "id": "P42_PM_19",
+    "pattern": "^#/pm/project/[^/]+/estimates/[^/]+$",
+    "name": "PM-19",
+    "legacyScreenId": "PM-19"
+  },
+  {
+    "id": "P43_PM_50",
+    "pattern": "^#/pm/notifications$",
+    "name": "PM-50",
+    "legacyScreenId": "PM-50"
+  },
+  {
+    "id": "P44_CL_01",
+    "pattern": "^#/customer/projects$",
+    "name": "CL-01",
+    "legacyScreenId": "CL-01"
+  },
+  {
+    "id": "P45_CL_02",
+    "pattern": "^#/customer/project/[^/]+/overview$",
+    "name": "CL-02",
+    "legacyScreenId": "CL-02"
+  },
+  {
+    "id": "P46_CL_04",
+    "pattern": "^#/customer/project/[^/]+/designs$",
+    "name": "CL-04",
+    "legacyScreenId": "CL-04"
+  },
+  {
+    "id": "P47_CL_14",
+    "pattern": "^#/customer/project/[^/]+/designs/[^/]+$",
+    "name": "CL-14",
+    "legacyScreenId": "CL-14"
+  },
+  {
+    "id": "P48_CL_05",
+    "pattern": "^#/customer/project/[^/]+/materials$",
+    "name": "CL-05",
+    "legacyScreenId": "CL-05"
+  },
+  {
+    "id": "P49_CL_15",
+    "pattern": "^#/customer/project/[^/]+/materials/[^/]+$",
+    "name": "CL-15",
+    "legacyScreenId": "CL-15"
+  },
+  {
+    "id": "P50_CL_06",
+    "pattern": "^#/customer/project/[^/]+/requests$",
+    "name": "CL-06",
+    "legacyScreenId": "CL-06"
+  },
+  {
+    "id": "P51_CL_16",
+    "pattern": "^#/customer/project/[^/]+/requests/[^/]+$",
+    "name": "CL-16",
+    "legacyScreenId": "CL-16"
+  },
+  {
+    "id": "P52_CL_07",
+    "pattern": "^#/customer/project/[^/]+/photos$",
+    "name": "CL-07",
+    "legacyScreenId": "CL-07"
+  },
+  {
+    "id": "P53_CL_17",
+    "pattern": "^#/customer/project/[^/]+/photos/[^/]+$",
+    "name": "CL-17",
+    "legacyScreenId": "CL-17"
+  },
+  {
+    "id": "P54_CL_08",
+    "pattern": "^#/customer/project/[^/]+/schedule$",
+    "name": "CL-08",
+    "legacyScreenId": "CL-08"
+  },
+  {
+    "id": "P55_CL_18",
+    "pattern": "^#/customer/project/[^/]+/schedule/[^/]+$",
+    "name": "CL-18",
+    "legacyScreenId": "CL-18"
+  },
+  {
+    "id": "P56_CL_09",
+    "pattern": "^#/customer/project/[^/]+/estimates$",
+    "name": "CL-09",
+    "legacyScreenId": "CL-09"
+  },
+  {
+    "id": "P57_CL_19",
+    "pattern": "^#/customer/project/[^/]+/estimates/[^/]+$",
+    "name": "CL-19",
+    "legacyScreenId": "CL-19"
+  },
+  {
+    "id": "P58_CL_50",
+    "pattern": "^#/customer/notifications$",
+    "name": "CL-50",
+    "legacyScreenId": "CL-50"
+  },
+  {
+    "id": "P59_PM_10",
+    "pattern": "^#/pm/project/[^/]+/settings$",
+    "name": "PM-10",
+    "legacyScreenId": "PM-10"
+  },
+  {
+    "id": "P60_PM_20",
+    "pattern": "^#/pm/customers$",
+    "name": "PM-20",
+    "legacyScreenId": "PM-20"
+  },
+  {
+    "id": "P61_PM_30",
+    "pattern": "^#/pm/calendar$",
+    "name": "PM-30",
+    "legacyScreenId": "PM-30"
+  },
+  {
+    "id": "P62_PM_40",
+    "pattern": "^#/pm/history$",
+    "name": "PM-40",
+    "legacyScreenId": "PM-40"
+  },
+  {
+    "id": "P63_PM_21",
+    "pattern": "^#/pm/customers/[^/]+$",
+    "name": "PM-21",
+    "legacyScreenId": "PM-21"
+  },
+  {
+    "id": "P64_PM_41",
+    "pattern": "^#/pm/history/[^/]+$",
+    "name": "PM-41",
+    "legacyScreenId": "PM-41"
+  },
+  {
+    "id": "P65_PM_60",
+    "pattern": "^#/pm/settings$",
+    "name": "PM-60",
+    "legacyScreenId": "PM-60"
+  },
+  {
+    "id": "P66_FW_01",
+    "pattern": "^#/field/photos$",
+    "name": "FW-01",
+    "legacyScreenId": "FW-01"
+  },
+  {
+    "id": "P67_FW_02",
+    "pattern": "^#/field/photos/[^/]+$",
+    "name": "FW-02",
+    "legacyScreenId": "FW-02"
+  },
+  {
+    "id": "P68_FW_50",
+    "pattern": "^#/field/notifications$",
+    "name": "FW-50",
+    "legacyScreenId": "FW-50"
+  },
+  {
+    "id": "P69_INVITE",
+    "pattern": "^#/?invite(?:[/?=].*)?$",
+    "name": "INVITE"
+  },
+  {
+    "id": "P70_RESET",
+    "pattern": "^#/?reset(?:[/?=].*)?$",
+    "name": "RESET"
+  }
+]

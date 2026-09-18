@@ -8,7 +8,7 @@ import {storage,storeFile} from './files.mjs';
 import {applyChanges} from './changes.mjs';
 const PUBLIC=resolve(fileURLToPath(new URL('../public/',import.meta.url)));
 const roles=['pm','customer','field'];
-export function configuration(overrides={}){return {dataDir:resolve(process.env.DATA_DIR||'data'),port:Number(process.env.PORT||8766),host:process.env.HOST||'127.0.0.1',origin:process.env.APP_ORIGIN||'http://127.0.0.1:8766',production:process.env.NODE_ENV==='production',databaseUrl:process.env.DATABASE_URL||'',postgresSSL:process.env.POSTGRES_SSL==='true',postgresCA:process.env.POSTGRES_SSL_CA||'',supabaseURL:(process.env.SUPABASE_URL||'').replace(/\/$/,''),supabaseKey:process.env.SUPABASE_SERVICE_ROLE_KEY||'',supabaseBucket:process.env.SUPABASE_BUCKET||'interior-private',sessionDays:Number(process.env.SESSION_DAYS||7),maxFileBytes:Number(process.env.MAX_FILE_MB||20)*1024*1024,...overrides};}
+export function configuration(overrides={}){return {showElementIds:process.env.SHOW_ELEMENT_IDS==='true',dataDir:resolve(process.env.DATA_DIR||'data'),port:Number(process.env.PORT||8766),host:process.env.HOST||'127.0.0.1',origin:process.env.APP_ORIGIN||'http://127.0.0.1:8766',production:process.env.NODE_ENV==='production',databaseUrl:process.env.DATABASE_URL||'',postgresSSL:process.env.POSTGRES_SSL==='true',postgresCA:process.env.POSTGRES_SSL_CA||'',supabaseURL:(process.env.SUPABASE_URL||'').replace(/\/$/,''),supabaseKey:process.env.SUPABASE_SERVICE_ROLE_KEY||'',supabaseBucket:process.env.SUPABASE_BUCKET||'interior-private',sessionDays:Number(process.env.SESSION_DAYS||7),maxFileBytes:Number(process.env.MAX_FILE_MB||20)*1024*1024,...overrides};}
 export async function createApplication(options={}){
  const config=configuration(options);if(config.production){required(/^https:\/\//.test(config.origin),500,'https_origin_required');required(config.databaseUrl||process.env.ALLOW_SQLITE_PRODUCTION==='true',500,'production_database_required');}
  required(!config.supabaseURL||config.supabaseKey,500,'storage_key_required');
@@ -27,6 +27,7 @@ export async function createApplication(options={}){
  const json=(res,status,data)=>{res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'});res.end(JSON.stringify(data));};
  async function api(req,res,url){const path=url.pathname,method=req.method;
   if(path==='/api/health'&&method==='GET')return json(res,200,{ok:true,database:repo.backend});
+  if(path==='/api/ui-config'&&method==='GET')return json(res,200,{showElementIds:!config.production&&config.showElementIds,allowElementIds:!config.production});
   if(!['GET','HEAD'].includes(method)){const origin=req.headers.origin;const expected=config.test?'http://'+req.headers.host:config.origin;required(origin===expected,403,'origin_forbidden');required(req.headers['sec-fetch-site']!=='cross-site',403,'origin_forbidden');}
   const body=['POST','PUT','PATCH'].includes(method)?await jsonBody(req):{};
   if(path==='/api/session'&&method==='GET')return json(res,200,await repo.read(s=>sessionInfo(s,actor(s,req))));

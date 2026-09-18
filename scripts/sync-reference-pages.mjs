@@ -37,3 +37,4 @@ await mkdir(resolve(root,'docs'),{recursive:true});
 await writeFile(resolve(root,'docs/reference-pages.json'),JSON.stringify({source:origin,capturedAt:new Date().toISOString(),routes,assets:[...mapping].map(([url,file])=>({url,file})),failures},null,2));
 console.log(JSON.stringify({pages:pages.size,assets:mapping.size,failures},null,2));
 if(failures.length)process.exitCode=1;
+if(!failures.length)await import('./build-ui-identities.mjs');
