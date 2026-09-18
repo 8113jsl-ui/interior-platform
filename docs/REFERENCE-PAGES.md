@@ -14,6 +14,8 @@ This is a local visual reference implementation, not a claim of pixel-identical 
 
 ## Verification
 
+Image-path correction: the initial capture omitted SVG `<image href>` resources and left `..//assets/` references on article pages. The capture now collects SVG images and resolves each asset attribute against its source page before rewriting. The regression test covers relative image paths and srcset as well as SVG href. `node scripts/audit-reference-images.mjs` checks all 26 pages and decodes 125 raster images; the corrected run reported zero failures.
+
 - 58 automated tests passed, including requests to all 26 routes, local HTML asset references, single animation-bundle initialization, login redirect and anonymous API rejection.
 - About rendered on desktop; scrolling and opening the first team detail panel worked.
 - Resource category `?sc=ai-practices` selected the matching filter. Clicking its first article opened the correct local detail URL.
