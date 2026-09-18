@@ -1,0 +1,651 @@
+{
+  "source": "https://heronaiapp.com",
+  "capturedAt": "2026-09-18T10:57:48.738Z",
+  "routes": [
+    "/",
+    "/about-us",
+    "/heron-chat-widget",
+    "/heron-dashboard",
+    "/pricing",
+    "/resources",
+    "/contact-us",
+    "/privacy-policy",
+    "/terms-and-conditions",
+    "/cookie-policy",
+    "/insights/the-difference-between-a-tool-and-a-teammate",
+    "/insights/why-the-best-ai-feels-invisible",
+    "/insights/the-hidden-cost-of-repetitive-modelling",
+    "/insights/ai-doesnt-replace-architects-it-removes-busywork",
+    "/insights/the-future-of-ai-in-architectural-practice",
+    "/insights/why-design-software-should-work-with-you",
+    "/ai-practices/why-small-automations-beat-big-overhauls",
+    "/ai-practices/automation-without-losing-control",
+    "/ai-practices/what-should-ai-automate",
+    "/ai-practices/building-trust-in-ai-for-design-teams",
+    "/ai-practices/human-in-the-loop-ai",
+    "/design-workflows/how-to-build-a-family-library-people-actually-use",
+    "/design-workflows/designing-faster-without-sacrificing-quality",
+    "/design-workflows/keeping-design-standards-consistent",
+    "/design-workflows/better-model-coordination-starts-earlier",
+    "/design-workflows/common-bim-modelling-mistakes"
+  ],
+  "assets": [
+    {
+      "url": "https://heronai-bp.netlify.app/main.js",
+      "file": "/assets/heron-subpages-motion.js"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/68f73a0fbae6fa626a19135c/690b187088225fb99f274165_hero-bg.png",
+      "file": "/assets/e8b1b521cbb75cf268.png"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/68f73a0fbae6fa626a19135c/68faf70718094e7433046fcc_bg-deco.svg",
+      "file": "/assets/d9153435dbf852796f.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/68f73a0fbae6fa626a19135c/6900476d411e3ea05889428f_bg.svg",
+      "file": "/assets/9770585cc15f5f35d7.svg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a69ba264dc9ba53ba4a07fa_favicon-light.png",
+      "file": "/assets/bd3b31a720493e9c91.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a69ba2640fdb174e5b57241_favicon-light.png",
+      "file": "/assets/5ebef50334d6085df4.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a6b2ed0ea684adcb57a2262_favicon-dark.png",
+      "file": "/assets/9bc405a9aa02ccc1d2.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/css/heronai.webflow.shared.0604909fd.min.css",
+      "file": "/assets/af14814cbabf84bcd5.css"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a685373f44f8dc1b903c2f6_webclip.png",
+      "file": "/assets/6864d6435ec86006e6.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a685373962e2dbd24608895_webclip.png",
+      "file": "/assets/3394f92f3801478a46.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/68f73a0fbae6fa626a19135c/6900476d411e3ea05889428f_bg.svg",
+      "file": "/assets/646f188634a9f0f36d.svg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a6b2e33f9a255a16702aabb_load.svg",
+      "file": "/assets/df72624a9fdc234ab0.svg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a68537337dfbd2cb268f8f0_webclip.png",
+      "file": "/assets/5a0480852d3dc2e85c.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a69a23dcc24456128e2afe3_image%20345.avif",
+      "file": "/assets/9f5393c5c36ff6dcf1.avif"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a634f5e18b19cdfe5aaf7e7_Logo%20partner-11.png",
+      "file": "/assets/f9fa470e4191980aa9.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a703ca7b25c47076637c631_4f993b1a199968429382e85294f3e6d1_Full.webp",
+      "file": "/assets/6ff5fdd9b4907a4c24.webp"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a634fa421f5ab60c373150c_Logo%20partner-13.png",
+      "file": "/assets/797ab2840bf58e9294.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a63504c77c27729e0ddbb11_Logo%20partner-16.png",
+      "file": "/assets/35ae1f006c21369fd9.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a6350857d1202ebd68239df_Logo%20partner-17.png",
+      "file": "/assets/141740c60eece1f9d3.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3c77_kk.png",
+      "file": "/assets/1908e471993daa64d4.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a6350b8134d3cc5f515c4db_Logo%20partner-18.png",
+      "file": "/assets/3a15dcb0db101aa72c.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a634f8490f683f582b7c815_Logo%20partner-12.png",
+      "file": "/assets/2716c9bb4b0e75c659.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a634fb5d19a05a393885a50_Logo%20partner-14.png",
+      "file": "/assets/493d87f3ba341a74cf.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a63503b2a4d020430c23b00_Logo%20partner-15.png",
+      "file": "/assets/e1526f8971220eb656.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3c5e_Dimensions.png",
+      "file": "/assets/ba5104713c22822aa7.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a69a34e15d1eb4aadac9ae6_b03ba3ff201b6aa651aadafe895f2928_Before-1.avif",
+      "file": "/assets/816ca3408e74d99c61.avif"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3c29_ll.png",
+      "file": "/assets/fbc56311124a070755.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a66fd6676c8ee4725207aaa_c250d7593ed0b070d3eb6aa486953f89_solution2.avif",
+      "file": "/assets/9d6c67ecfac9fa1ff8.avif"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a69a34ee521ff1cc6d69306_95fbf6e81134860c2ab2e4e9f5b9c723_Before.avif",
+      "file": "/assets/d3d6406ba79e332628.avif"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3c84_fff.png",
+      "file": "/assets/6ea08bb12e77d7fb1d.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a66fd66235c9b3dc9658cce_b7a2ba681bb6f203cb6b6f354b9db94f_solution1.jpg",
+      "file": "/assets/7f295858ca3cedb876.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a670fa1cfadff37a55ba10b_8b74c365290a3a568eb43a2526db7de5_Illust%20why%20us%20section%20(1).jpg",
+      "file": "/assets/95fc2e1bc3f657cc6f.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a6875a79d14cd95a2ee4f14_box-1.png",
+      "file": "/assets/24a624ae3463c3fc02.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a6875a7aadcc2ec708b1cfe_box-2.png",
+      "file": "/assets/298099616657d7f2c8.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a672441c43e84bf175b8fc9_f0abac54ab792d099695bd11ba88c3a0_Illust%20why%20us%20section%20(1).jpg",
+      "file": "/assets/83d7c52a2cccaef2e6.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a687b0f1d1ada1f534fc126_box-3.png",
+      "file": "/assets/7a7067f426700a5a1a.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a857d63d8e9eceab3a8a191_f4cd8364f148923074b6f17ed50f6efc_fff%20(1).png",
+      "file": "/assets/c8f72e12a6774a23d2.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a672d855c5776ffd13a0b9b_660f6807d3ea3c427c195ecf4c16359d_Frame%202087327319%20(1).jpg",
+      "file": "/assets/38c9c2b3919f9c2e6f.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a672d855c5776ffd13a0b9b_660f6807d3ea3c427c195ecf4c16359d_Frame%202087327319%20(1)-p-500.jpg",
+      "file": "/assets/0041053d56bc0fd464.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a6715f67b405f421aeee3d4_1d0ff022380f5c6528ed6d4cd29accf8_Illust%20why%20us%20section.jpg",
+      "file": "/assets/e2330526731ea91ef5.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a672d855c5776ffd13a0b9f_61fddc00f08323cea212d4479c223bf4_Frame%202087327318%20(1).jpg",
+      "file": "/assets/67913e825150614bf5.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a672d85516d2cebabe5ae10_8c825758515cc7b9420562a48360bf3a_Frame%201707479505%20(1)-p-500.jpg",
+      "file": "/assets/72974f06026badf92f.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a672d85516d2cebabe5ae10_8c825758515cc7b9420562a48360bf3a_Frame%201707479505%20(1).jpg",
+      "file": "/assets/d2d99996a22a3b58df.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a672d855c5776ffd13a0b9f_61fddc00f08323cea212d4479c223bf4_Frame%202087327318%20(1)-p-500.jpg",
+      "file": "/assets/1437ce40e64629aecf.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a6731092c23e6c739091db5_43da788ecab201c1c711273e28d8f0b4_Illust%20why%20us%20section.jpg",
+      "file": "/assets/2cbefd3144f8329da6.jpg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a857fd09f73ba800be8cc97_img%20(1).png",
+      "file": "/assets/41cfca07a510ab351c.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a68855841a36e195bf762fd_c8a3e64c6db5d262e6b0b63a70464e28_box-6.jpg",
+      "file": "/assets/1a2034d271bb0a09d2.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a6c0ceefb143418aa79a36c_Architects.jpg",
+      "file": "/assets/eef05ca39d5ae84fab.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a6c0cff693690449c2a54b9_INTERIOR%20DESIGNERS.jpg",
+      "file": "/assets/c625ba5fe43bc89ed7.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a6c0d3fdae4423c35ceaaf0_LANDSCAPE%20ARCHITECTS.jpg",
+      "file": "/assets/424b0dbbdef0caa772.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a6c0d3219ade09c800cc210_BIM%20MANAGERS.jpg",
+      "file": "/assets/2be1debd2df1c66218.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a6c0d0a19ade09c800cb98e_DRAFTERS.jpg",
+      "file": "/assets/1527a1221b0c86532d.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a6ad84d47e6be3956e3a35a_cta-sketch.webp",
+      "file": "/assets/42c9de5f87303bc681.webp"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a6c0d16d3c763bf20214c62_ENGINEERS.jpg",
+      "file": "/assets/b41476ad3c4e22a4eb.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a6c0d2ae7585ba74aa3b09f_MALL%20FIRMS.jpg",
+      "file": "/assets/66b3e06602eb209191.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a6c0d1f7a4f92b6351bc4e0_DESIGN%20LEADS.jpg",
+      "file": "/assets/0bd153bfdbcf1fa08d.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a67432f15ab968d9acb8af4_cta-mb.webp",
+      "file": "/assets/99d15c5546e5030ff6.webp"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3c0a_7a1f4c59a32ecf47588f364258cddcaf_footer1.avif",
+      "file": "/assets/60d84536518be2fd37.avif"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a698acae521ff1cc6cba1f2_3a9b60f8f07a704746b20978dd8d73d1_Frame%20484%20(1).png",
+      "file": "/assets/8691aeca6edf21f2c4.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a685b5a07a3038b09d2a9d4_7eae2a6d059ebb6121966d2839ba80ee_logo-sketch.svg",
+      "file": "/assets/692054f40cf3a31085.svg"
+    },
+    {
+      "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6a4b5161f0d11f1602cc3bbf",
+      "file": "/assets/f7c7735bf87c167ee4.js"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/js/webflow.a0aa6ca1.b7683852b8a60d8e.js",
+      "file": "/assets/ebb252e6fb7f3791b3.js"
+    },
+    {
+      "url": "https://unpkg.com/lenis@1.1.5/dist/lenis.min.js",
+      "file": "/assets/f1c19eb28efe1b9800.js"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js",
+      "file": "/assets/bf5b26673eeed42ba8.js"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js",
+      "file": "/assets/8275e947aa32ef1d03.js"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@barba/prefetch",
+      "file": "/assets/aa23bf1fc06b823b8e.js"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/TextPlugin.min.js",
+      "file": "/assets/2d142484c4e30a70fc.js"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@barba/core",
+      "file": "/assets/d64f743e4a0c4fab4d.js"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js",
+      "file": "/assets/2d1ce64424229025e3.js"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a6b120f653ddfe58ea75662_Line.svg",
+      "file": "/assets/b5fbef70944e641953.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js",
+      "file": "/assets/13cf11a4182d0bc51f.js"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3c2a_about1%20(1).png",
+      "file": "/assets/93fb031d588c79b7dc.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a719564fc8362452e69f504_Frame%202087327266.jpg",
+      "file": "/assets/0fc02ab220363726da.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a719549febb52fe8cd8eab2_Frame%202087327274.jpg",
+      "file": "/assets/c74d1dd2952e94d9f3.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a71954c864327c498be1e6a_Frame%202087327270.jpg",
+      "file": "/assets/7adb3f021ddc53ed36.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a69834527b93a1b6d0cd24d_22dc33110e9895f7f76f43aa1b3cbe10_about-img%20(1).avif",
+      "file": "/assets/181704c0168f771c59.avif"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a719561259e9e258a80f0bb_Hover.jpg",
+      "file": "/assets/80bbf8abce2325e0a8.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a7195bf61dabb55e9f6ac7f_Frame%202087327269.jpg",
+      "file": "/assets/23e7ee33dc2f559286.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a7195bae8cac694fb53c180_Frame%202087327273.jpg",
+      "file": "/assets/daef9d7ec026446813.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3c32_about2%20(1).png",
+      "file": "/assets/6db397ac3b16090607.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a71958cf58e306f4aac6f26_Frame%202087327276.jpg",
+      "file": "/assets/84b1887e0babb25722.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a719589ca3da750a42bfb64_Frame%202087327277.jpg",
+      "file": "/assets/4007b5b8f5d0f3ee13.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a7195a1105af91fe3581993_Frame%202087327267.jpg",
+      "file": "/assets/0b132bc5c21361ae85.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a634d7fa9eefb9d76084c83_Logo%20partner-1.png",
+      "file": "/assets/ade94d61145259682f.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a7195a461dabb55e9f6a1e6_Frame%202087327275.jpg",
+      "file": "/assets/e316336a1440170462.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a719578039fcbd947c600e6_Frame%202087327268.jpg",
+      "file": "/assets/5340de78ce61f9235c.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a7195743a7adf7d9066de0a_Frame%202087327272.jpg",
+      "file": "/assets/1c3f753766320d0139.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3c45_team1-trust.jpg",
+      "file": "/assets/1a9bf8623e19f4de77.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a634daf77c27729e0dc2d20_Logo%20partner-2.png",
+      "file": "/assets/733acaeca0d3e57961.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a634e58ba29594d83251083_Logo%20partner-7.png",
+      "file": "/assets/1702f23c753674463b.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a634dfc215b5a48fd2f5d12_Logo%20partner-5.png",
+      "file": "/assets/9e872190e708654412.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a634ee4405845bf9b526943_Logo%20partner-8.png",
+      "file": "/assets/d1e9e84a784d92fc11.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a634e27215b5a48fd2f8ee5_Logo%20partner-6.png",
+      "file": "/assets/ffa100d660dfc8a40a.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a634de97d1202ebd68098a0_Logo%20partner-4.png",
+      "file": "/assets/9514849e144d4deaed.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a634f1a2a4d020430c16157_Logo%20partner-9.png",
+      "file": "/assets/80bab461cbe40577e6.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a634dd5ea21a7ac7e2fa7c6_Logo%20partner-3.png",
+      "file": "/assets/4ca8b8c8456056a63c.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a634f2e29cb43c54420af6e_Logo%20partner-10.png",
+      "file": "/assets/583b902f81920ce49c.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a6350e167455257c63cf34c_Logo%20partner.png",
+      "file": "/assets/c88d64a985a7631e1b.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3cb3_cafd4169c0bb995463e889a453eac354_product-chat%20(1).webp",
+      "file": "/assets/bf70f395a818fcfe43.webp"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3c98_489828d1f552deea43d90ea09d7a6be8_product-chat-mb%20(1).webp",
+      "file": "/assets/4103388f4e12e2a81b.webp"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a71a0fa039fcbd947cd82c5_Illust%2023.png",
+      "file": "/assets/985e13ec761d604ebf.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a71a1032baee3b4ca520df6_Illust%2026.png",
+      "file": "/assets/9e29f30919f853fa16.png"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a8585d80e8c8e630a9c672a_Illust_28%20(2).jpg",
+      "file": "/assets/a0e58c7eb1b6c06ee8.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a71a0cfd98ce661969d9d5a_Illust%2024.png",
+      "file": "/assets/62ef291f21b1f46c76.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a71a0c5484971f008d9a660_Illust%2027.png",
+      "file": "/assets/0115b56e6605cc2f64.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a6c47d794a15f7b6d14be8e_Frame%202087327317.webp",
+      "file": "/assets/ecf25c2b5d67ecae8a.webp"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a858327c12b6e9449719f8b_hero%20(1).avif",
+      "file": "/assets/3382e6949043014505.avif"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a66e2573d3a7b6cc1501696_5582d10fd6ba44274253aa9b2b914ab2_platform-mb.webp",
+      "file": "/assets/240a047cdbc0428fbd.webp"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a71a18e89743273323f924c_Illust%2036.png",
+      "file": "/assets/74545e333eb008024d.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a71a1a324f8059ec8d42c67_Illust%2038.png",
+      "file": "/assets/04cf67d6b23b5a0ca1.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3ca8_95310b607163c35eeb28692b36b0a766_story.webp",
+      "file": "/assets/2a6a7a0dac2cb9a96a.webp"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a71a199101fc62569bf0524_Illust%2039.png",
+      "file": "/assets/7e5e4a46359c5d4833.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a71a179006fa184aa58f452_Illust%2041.png",
+      "file": "/assets/0bc5ae19f19c593067.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a6c45414250c0b6ef67093b_98bf034888b01452557f4594a925e4f6_Frame%201707479496.webp",
+      "file": "/assets/b21cfb10539408e439.webp"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a682d35314425e929d4f836_a%CC%81d.webp",
+      "file": "/assets/8f6246748133ebca84.webp"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a71a185a90a974c89e27017_Illust%2040.png",
+      "file": "/assets/c5a7d222a957695b53.png"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a742db823e233e2dd93cf9c_Why%20the%20Best%20AI%20Feels%20Invisible.jpg",
+      "file": "/assets/37b7d14bcc3225da00.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a7018c02b707ca87b8ffc3d_The%20Hidden%20Cost%20of%20Repetitive%20Modelling.jpg",
+      "file": "/assets/7e286af919a6a29c4f.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a70186ff59ba1b3cd699c2e_The%20Difference%20Between%20a%20Tool%20and%20a%20Teammate.jpg",
+      "file": "/assets/e48d97433a3216a533.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a682d35314425e929d4f836_a%CC%81d-p-500.webp",
+      "file": "/assets/7cc4681604cf910f27.webp"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a70189350fc4f502334558e_Why%20Design%20Software%20Should%20Work%20With%20You.jpg",
+      "file": "/assets/8cd9a49b8efd06f924.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a7018b19b897dc237cc7dab_AI%20Doesn't%20Replace%20Architects.%20It%20Removes%20Busywork..jpg",
+      "file": "/assets/f3e98f4cd66ee78c05.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a701b3b79f44fb33c169390_What%20Should%20AI%20Automate_.jpg",
+      "file": "/assets/a6319b35a721226109.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a701ba4c890abdc80b12df1_Automation%20Without%20Losing%20Control.jpg",
+      "file": "/assets/0d377fc902cf0f0f80.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a701ae0601d6d4a6a1f5960_Human-in-the-Loop%20AI.jpg",
+      "file": "/assets/ee50c7c22abae4dbab.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a701c2933e662d2b0b66aeb_Automation%20Without%20Losing%20Control-1.jpg",
+      "file": "/assets/61c983f1e873972284.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a701b23faf835ece0e30a96_Building%20Trust%20in%20AI%20for%20Design%20Teams.jpg",
+      "file": "/assets/a9a8a2d5a2cf565465.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a7018a16d2fe099771407e2_The%20Future%20of%20AI%20in%20Architectural%20Practice.jpg",
+      "file": "/assets/bd70b44d790b567973.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a70180b601d6d4a6a1ebcd0_How%20to%20Build%20a%20Family%20Library%20People%20Actually%20Use.jpg",
+      "file": "/assets/754726b1ca3516e404.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a70181cca6398021ced90a7_Designing%20Faster%20Without%20Sacrificing%20Quality.jpg",
+      "file": "/assets/04ef74415820a93647.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a70182c717f26d20bfdbfc4_Keeping%20Design%20Standards%20Consistent.jpg",
+      "file": "/assets/6df858f35a87cc33de.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a701848f59ba1b3cd6994d1_Common%20BIM%20Modelling%20Mistakes.jpg",
+      "file": "/assets/94f98aef255f03a79b.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bc0/6a70183b0542062a7e81d07d_Better%20Model%20Coordination%20Starts%20Earlier.jpg",
+      "file": "/assets/aafd6c9a3f3b7df12f.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3c85_bf7cfcc69532dcb103861abe4476e884_contact-us.jpg",
+      "file": "/assets/a6a7176fe842349eeb.jpg"
+    },
+    {
+      "url": "https://heronaiapp.com/cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3c27_bg-123%20(1).webp",
+      "file": "/assets/98b19a00320290eeb9.webp"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3c95_GeistMono-Medium.woff2",
+      "file": "/assets/c5a8e06de362965fb6.woff2"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a69a764736de82b5ed81ccd_BTGrotesk-Regular.woff2",
+      "file": "/assets/6a1693c58dc92c129b.woff2"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a69a764af469793ef4762c6_BTGrotesk-Bold.woff2",
+      "file": "/assets/4f49965276f43b96ea.woff2"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a69a764e3c7de325a7f0c08_BTGrotesk-Medium.woff2",
+      "file": "/assets/f547c608a31d3b48e0.woff2"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a69a76433bc3835bce3ed52_BTGrotesk-SemiBold.woff2",
+      "file": "/assets/06117befa6dab2c766.woff2"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a6c1e98544b94d5960c1e38_BTGrotesk-BoldItalic.woff2",
+      "file": "/assets/0991dadcc67b97d8cb.woff2"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a6c1e9806baf06605e990ad_BTGrotesk-MediumItalic.woff2",
+      "file": "/assets/3b89c1bfb9877026c4.woff2"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a6c1e9806baf06605e990b0_BTGrotesk-Italic.woff2",
+      "file": "/assets/a70b50eaf74d156548.woff2"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a6c1e98544b94d5960c1e3b_BTGrotesk-SemiBoldItalic.woff2",
+      "file": "/assets/9b08c56fcc6e17d61d.woff2"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3c0e_border.svg",
+      "file": "/assets/f6fbc551e47e68c10a.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3c8e_border-black.svg",
+      "file": "/assets/58757d8569fe04c01e.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3be0_border2.svg",
+      "file": "/assets/a898bdcea0cde02504.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3be1_bg-deco.svg",
+      "file": "/assets/8c652e16076f2f2e22.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3c93_bg-border-grid.svg",
+      "file": "/assets/3f4aba85240385ae3b.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3c92_border-active.svg",
+      "file": "/assets/ec9c18ce97c07db92b.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3c91_bg-border.svg",
+      "file": "/assets/e5217edceacae5ab7c.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3bf9_bg-range.png",
+      "file": "/assets/e93a4e51c906ecea32.png"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a6ad1c2da777b5f8ae08567_ic-dash.svg",
+      "file": "/assets/9e9a5e35f8faa4beea.svg"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6a4b5161f0d11f1602cc3bbf/6a4b5161f0d11f1602cc3c27_bg-123%20%281%29.webp",
+      "file": "/assets/181ce8eaf2c2b094fb.webp"
+    }
+  ],
+  "failures": []
+}
